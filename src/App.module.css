@@ -1,0 +1,37 @@
+.calculatorContainer {
+  border: 1px solid black;
+  height: 460px;
+  width: 390px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.calculatorContainer input {
+  width: 100%;
+  height: 50px;
+  border-radius: 6px;
+  border: 1px solid black;
+  padding-right: 10px;
+  text-align: right;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.btnContainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btnface {
+  height: 80px;
+  width: 79px;
+  margin: 4px;
+  font-size: 25px;
+  border: 1.2px solid black;
+}
+.btnface:hover {
+  background-color: rgb(185, 238, 238);
+  transition: 1s;
+}
